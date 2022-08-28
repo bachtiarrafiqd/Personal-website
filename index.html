@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="shortcut icon" href="bootstrap/img/icon.jpg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BRD | Personal Website</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="bootstrap/css/style.css" />
+    <link rel="stylesheet" href="bootstrap/css/responsive.css" />
+    <link rel="stylesheet" href="bootstrap/css/parallax.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/min/tiny-slider.js"></script>
+    <script src="https://kit.fontawesome.com/397b8f9efe.js" crossorigin="anonymous"></script>
+    
+  </head>
+  <body>
+    <!------------------------ Navigasi Bar ------------------------->
+    <nav class="navbar navbar-expand-lg bg-light sticky-top">
+      <div class="container">
+        <a class="navbar-brand fw-bolder" href="#">BachtiarRD</a>
+        <button
+          class="navbar-toggler collapsed d-flex d-lg-none flex-column justify-content-around"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="toggler-icon top-bar"></span>
+          <span class="toggler-icon middle-bar"></span>
+          <span class="toggler-icon bottom-bar"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item justify-content-sm-around navLi ">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item justify-content-sm-around navLi ">
+              <a class="nav-link page-scrool" href="#about">About</a>
+            </li>
+            <li class="nav-item justify-content-sm-around navLi ">
+              <a class="nav-link page-scrool" href="#portofolio">Portofolio</a>
+            </li>
+            <li class="nav-item justify-content-sm-around navLi ">
+              <a class="nav-link page-scrool" href="#skill-nav">Skill</a>
+            </li>
+            <li class="nav-item justify-content-sm-around navLi ">
+              <a class="nav-link page-scrool" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!------------------------ Home ------------------------->
+    <section id="home" class="home">
+      <div class="text-container">
+        <p class="pJumbotron">Hello, I am</p>
+        <p class="pJumbotron">BACHTIAR RAFIQ DIANSYAH</p>
+        <p class="pJumbotron">I am Junior Web Developer</p>
+        <a href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=bachtiarrafiq321@gmail.com" target="_blank"><button class="hire-btn ">Hire Me</button></a>
+        <a href="https://drive.google.com/file/d/1Apz6PQmINtmJTO0VMGnmetwqCdl9dA3e/view?usp=sharing" target="_blank"><button class="down-cv text-white ">Donwload CV</button></a>
+      </div>
+    </section>
+    <!------------------------ About ------------------------->
+    <div class="about-container">
+      <img src="bootstrap/img/model2.jpg" id="about" alt="" />
+      <div class="about-text">
+        <p class="about-me" >About Me</p>
+        <hr />
+        <p class="status">Bachtiar Rafiq Diansyah</p>
+        <p class="introduce">
+          Hello, My Name is Bachtiar Rafiq. I am fresh graduated from SMK Yadika 13, majoring in computer and network engineering.
+        </p>
+        <p class="introduce">
+          I am from Bekasi, West Java. I want to be a Web Developer. I really like to follow or learn anything about technology.
+        </p>
+        <div class="about-button">
+          <a href="https://mail.google.com/mail/u/0/?view=cm&tf=1&fs=1&to=bachtiarrafiq321@gmail.com" target="_blank" ><button class="text-white">Hire me</button></a>
+          <a href="https://drive.google.com/file/d/1Apz6PQmINtmJTO0VMGnmetwqCdl9dA3e/view?usp=sharing" target="_blank" ><button class="text-white">Donwload CV</button></a>
+        </div>
+      </div>
+    </div>
+    <!------------------------ Portofolio ------------------------->
+    <div class="portofolio" id="portofolio">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,160L34.3,149.3C68.6,139,137,117,206,112C274.3,107,343,117,411,149.3C480,181,549,235,617,234.7C685.7,235,754,181,823,170.7C891.4,160,960,192,1029,186.7C1097.1,181,1166,139,1234,128C1302.9,117,1371,139,1406,149.3L1440,160L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <h2>Portofolio</h2>
+          <hr>
+        </div>
+      </div>
+
+      <div class="row container mx-auto gap-3 d-flex justify-content-evenly text-center">
+
+        <div class="card col-md-8 content-card" style="width: 20rem;">
+          <img src="bootstrap/img/calculator.PNG" class="card-img-top mt-2" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Calculator</h5>
+            <p class="card-text mt-2">Simple aplication calculator. build with HTML, CSS & Javascript</p>
+            <a href="https://calculator-brd.web.app/" class="btn btn-primary mb-2 mt-4" target="_blank">Go</a>
+          </div>
+        </div>
+
+        <div class="card col-md-8 content-card" style="width: 20rem;">
+          <img src="bootstrap/img/personal-web.PNG" class="card-img-top mt-2" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Personal Landing Page</h5>
+            <p class="card-text mt-2">Simple Landing Page Profile. Build with HTML, CSS & Bootstrap</p>
+            <a href="#" class="btn btn-primary mb-2 mt-4">Go</a>
+          </div>
+        </div>
+
+        <div class="card col-md-8 content-card" style="width: 20rem;">
+          <img src="bootstrap/img/sosialmedia.PNG" class="card-img-top mt-2" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">link tree Social Media</h5>
+            <p class="card-text mt-2">Simple LinkTree Social Media. Build with HTML, CSS, React & Bootstrap</p>
+            <a href="http://bachtiarrd.xyz/" class="btn btn-primary mb-2 mt-4" target="_blank">Go</a>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <!------------------------ Skill ------------------------->
+    <section id="skill slider">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#E4E6EB" fill-opacity="1" d="M0,128L40,144C80,160,160,192,240,181.3C320,171,400,117,480,112C560,107,640,149,720,165.3C800,181,880,171,960,154.7C1040,139,1120,117,1200,122.7C1280,128,1360,160,1400,176L1440,192L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z"></path></svg>
+      <div class="container-skill" id="skill-nav">
+        <div class="subcontainer-skill">
+          <div class="slider-wrapper">
+            <div>
+              <h2 class="text-center">Skill</h2>
+            </div>
+            <br>
+            <div class="my-slider">
+              <div>
+                <div class="slide">
+                  <div class="slide-img img-1">
+                    <!-- <a href="#">Learn More</a> -->
+                  </div>
+                  <div>
+                    <h3 class="text-center p-4">HTML</h3>
+                  </div>
+                </div>
+              </div>
+              
+              <div>
+                <div class="slide">
+                  <div class="slide-img img-2">
+                    <!-- <a href="#">Learn More</a> -->
+                  </div>
+                  <div>
+                    <h3 class="text-center p-4">CSS</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div class="slide">
+                  <div class="slide-img img-3">
+                    <!-- <a href="#">Learn More</a> -->
+                  </div>
+                  <div>
+                    <h3 class="text-center p-4">JAVASCRIPT</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div class="slide">
+                  <div class="slide-img img-4">
+                    <!-- <a href="#">Learn More</a> -->
+                  </div>
+                  <div>
+                    <h3 class="text-center p-4">BOOTSTRAP</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div class="slide">
+                  <div class="slide-img img-5">
+                    <!-- <a href="#">Learn More</a> -->
+                  </div>
+                  <div>
+                    <h3 class="text-center p-4">MYSQL</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div class="slide">
+                  <div class="slide-img img-6">
+                    <!-- <a href="#">Learn More</a> -->
+                  </div>
+                  <div>
+                    <h3 class="text-center p-4">Microsoft Excel</h3>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <div class="slide">
+                  <div class="slide-img img-7">
+                    <!-- <a href="#">Learn More</a> -->
+                  </div>
+                  <div>
+                    <h3 class="text-center p-4">Microsoft Word</h3>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!------------------------ Contact-Me ------------------------->
+    <div class="contact-me" id="contact">
+      <p>If You Have Any Project In Your Mind ?</p>
+      <a href="https://wa.me/+6282210127614" target="_blank"><button class="text-white">Contact me</button></a>
+    </div>
+    <!------------------------ Footer ------------------------->
+    <footer>
+      <p>Bachtiar Rafiq </p>
+      <p>I make as soon as possible,You will really like my work. If you don&#8217;t like, i'il change this until you like. I will give you good results</p>
+     <div class="social-icons">
+      <a href="https://www.instagram.com/bachtiar_rafiq/" class="icon icon--instagram" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/bachtiar-rafiq-diansyah-79091a215/" class="icon icon--linkedin" target="_blank">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/bachtiarrafiqd" class="icon icon--github" target="_blank">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="http://www.bachtiarrd.xyz/" class="icon icon--web" target="_blank">
+        <i class="fas fa-external-link"></i>
+      </a>
+     </div>
+     <p class="copyright">Created &#169; By Bachtiar Rafiq D</p>
+  </footer>
+    <!------------------------ Attachbar ------------------------->
+    <div class="social">
+      <a href="https://www.instagram.com/bachtiar_rafiq/" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/bachtiar-rafiq-diansyah-79091a215/" target="_blank">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+      <a href="https://github.com/bachtiarrafiqd" target="_blank">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="http://www.bachtiarrd.xyz/" target="_blank">
+        <i class="fas fa-external-link"></i>
+      </a>
+    </div>
+
+    <script src="bootstrap/js/jquery-3.6.0.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="bootstrap/js/script.js"></script>
+  </body>
+</html>
