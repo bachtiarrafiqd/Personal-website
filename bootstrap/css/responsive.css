@@ -1,0 +1,133 @@
+@media(max-width: 1020px) {
+    
+    .nav-item {
+        text-align: center;
+    }
+    .container-skill {
+        margin-top: 0;
+    }
+    
+	.contact-me{
+		height: 200px;
+	}
+	.contact-me p{
+		font-size: 26px;
+	}
+	.contact-me button{
+		font-size: 14px;
+		height:35px;
+		width: 160px;
+	}
+    .social a{
+        height: 45px;
+        width: 45px;
+    }
+    .social i {
+        font-size: 18px;
+    }
+    .slide-img{
+        border: none;
+        border-radius: 5px;
+    }
+}
+@media(max-width:1600px) {
+    .portofolio {
+        max-width: 100%;
+        overflow-x: hidden;
+    } 
+    .container-skill {
+        width: 100%;
+    }
+}
+@media(max-width: 650px) {
+    .navbar{
+        margin: 0;
+    }
+    .navbar-nav {
+        gap :0;
+    }
+    .nav-item {
+        text-align: center;
+        font-size: 20px;
+    }
+    .text-container p:nth-child(2){
+		line-height: 40px;
+		margin: 0px;
+		padding: 0px;
+		
+	}
+    
+	.text-container{
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+		width: 80%;
+	}
+    .text-container button {
+        margin: 15px 5px;
+    }
+    .home {
+        height: 100vh;
+    }
+
+    .about-container{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        height: 100vh;
+		flex-direction: column;
+		width:95%;
+        border-radius: none;
+		height: auto;
+		padding: 20px 0px;
+		align-items: center;
+        box-shadow: 2px 2px 10px 2px #888888;
+	}
+    .about-container img {
+        width: 100%;
+    }
+	.about-me {
+		margin-top: 10px;
+	}
+    .introduce {
+        font-size: 14px;
+        text-align: justify;
+    }
+	.about-text{
+		width:90%;
+		text-align: center;
+	}
+    .about-button {
+        margin-left: 5px;
+        padding-bottom: 10px;
+    }
+    .portofolio hr {
+        width: 200px;
+    }
+    .slide-img{
+        border: none;
+        border-radius: 5px;
+    }
+    .skill h2 {
+        margin: 0 0 20px 0;
+    }
+
+    .container-skill {
+        margin-top: 0;
+    }
+    
+    .contact-me{
+		height: 180px;
+        margin-top: 10px;
+	}
+	.contact-me p{
+		font-size: 18px;
+	}
+	.contact-me button{
+		width: 150px;
+		height: 33px;
+	}
+	footer p:nth-child(2){
+        font-size: 15px;
+		width: 95%;
+	}
+}

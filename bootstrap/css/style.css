@@ -1,0 +1,444 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto::ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400&display=swap');
+
+*, 
+*::before, 
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html {
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    scroll-behavior: smooth;
+}
+hr {
+    width: 60%;
+    height: 2px;
+    font-weight: bold;
+    background-color: #000;
+	margin: auto;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+/* NAVBAR */
+.navbar-nav {
+    gap :20px;
+}
+.active {
+    font-weight: 500;
+}
+.nav-link:hover {
+        font-weight: 650;
+}
+
+.navbar-toggler {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    transition: .5s ease-in-out;
+}
+.navbar-toggler,
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus{
+    outline: none;
+    box-shadow: none;
+    border: 0;
+}
+
+.navbar-toggler span {
+    margin: 0;
+    padding: 0;
+}
+.toggler-icon {
+    display: block;
+    position: absolute;
+    height: 3px;
+    width: 100%;
+    background-color: #000;
+    border-radius: 1px;
+    opacity: 1;
+    left: 0;
+    transform: rotate(0deg);
+    transition: .25s ease-in-out;
+}
+.middle-bar {
+    margin-top: 0px;
+}
+
+/* navbar when u click */
+.navbar-toggler .top-bar {
+    margin-top: 0px;
+    transform: rotate(135deg);
+}
+.navbar-toggler .middle-bar {
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.navbar-toggler .bottom-bar {
+    margin-top: 0px;
+    transform: rotate(-135deg);
+}
+
+.navbar-toggler.collapsed .top-bar{
+    margin-top: -20px;
+    transform: rotate(0deg);
+}
+.navbar-toggler.collapsed .middle-bar{
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+.navbar-toggler.collapsed .bottom-bar{
+    margin-top: 20px;
+    transform: rotate(0deg);
+}
+
+
+/* PENUTUP NAVBAR */
+
+/* HOME CONTENT */
+.home {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/bg1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.text-container p:nth-child(1){
+    font-family: calibri;
+    font-weight: bold;
+    color: #6d6d6d;
+    font-size: 22px;
+}
+.text-container p:nth-child(2){
+    font-family: calibri;
+    font-weight: bold;
+    letter-spacing: 1;
+    color: black;
+    font-size: 40px;
+}
+.text-container p:nth-child(3){
+    font-family: myriad pro regular;
+    color: #403e3e;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.text-container p {
+    line-height: 0px;
+    margin: 45px 0px 25px 0;
+}
+.text-container {
+    position: absolute;
+    left: 13%;
+    top: 42%;
+    transform: translate(-10%,-40%);
+}
+.text-container button {
+    width: 130px;
+    height: 42px;
+    border-radius: 10px ;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 14px;
+    outline: none;
+    margin: 0px 10px;
+}
+.hire-btn {
+    border: 2px solid #373636;
+}
+.down-cv {
+    background-color: #0b0b0b;
+    border: none;
+}
+button:active {
+    transform: scale(1.1);
+}
+/* PENUTUP HOME */
+
+/* ABOUT CONTENT */
+.about-container {
+    width: 80%;
+    height: 380px;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2 );
+    display: flex;
+    margin: -12% auto 0 auto;
+    position: relative;
+    justify-content:space-evenly;
+	align-items: center;
+}
+.about-container img{
+	height:287px;
+}
+.about-text{
+	width:600px;
+}
+.about-me {
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin: -10px 0 15px 0;
+}
+.about-text .status {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 35px;
+	margin: 20px 0 30px 0;
+}
+.introduce {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.about-button {
+    margin-left: 100px;
+    margin-top: 35px;
+}
+.about-text button{
+	width:120px;
+	height: 40px;
+	outline:none;
+	border:none;
+	font-family: calibri;
+	background-color:#262525;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+/* PENUTUP ABOUT CONTENT */
+
+/* PORTO FOLIO */
+
+.portofolio {
+    margin-top: 30px;
+    background-color: #E4E6EB;
+    padding: 0 0 50px 0;
+}
+.portofolio h2 {
+   margin: 0 0 25px 0;
+}
+.card img{
+    height: 175px;
+}
+.portofolio hr {
+    color: #000;
+    height: 3px;
+    width: 250px;
+    margin-bottom: 30px;
+}
+/* PENUTUP PORTO FOLIO */
+
+/* SKILL */
+
+#slider{
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container-skill {
+    width: 1600px;
+    margin: -50px auto 40px auto;
+}
+.subcontainer-skill {
+    width: 85%;
+    margin: auto;
+}
+.slide-img {
+    width: 100%;
+    height: 275px;
+    border-radius: 5px;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid black;
+    cursor: pointer;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.img-1 {
+    background-image: url('../img/html.jpg');
+}
+.img-2 {
+    background-image: url('../img/css.jpg');
+}
+.img-3 {
+    background-image: url('../img/js.jpg');
+}
+.img-4 {
+    background-image: url('../img/bootstrap.png');
+}
+.img-5 {
+    background-image: url('../img/mysql.png');
+}
+.img-6 {
+    background-image: url('../img/excel.jpg');
+}
+.img-7 {
+    background-image: url('../img/word.jpg');
+}
+
+/* PENUTUP SKILL */
+
+/* CONTACT ME */
+
+.contact-me{
+	height:280px;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-image: url("../img/bg1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.contact-me p{
+	color: #000;
+	font-size: 30px;
+	font-family: calibri;
+	font-weight:bold;
+	margin-bottom: 30px;
+}
+.contact-me button{
+	width:200px;
+	height:40px;
+    border-radius: 10px;
+	background-color: #000;
+	border:none;
+	outline:none;
+	font-size:14px;
+	font-weight:bold;
+}
+.contact-me a:hover {
+	color: blue;
+}
+
+/* PENUTUP CONTACT ME */
+
+
+/* FOOTER */
+footer p:nth-child(1){
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 50px;
+	margin-bottom: 30px;
+    color: #191919;
+    line-height: 10px;
+}
+footer p:nth-child(2){
+    font-size: 18px;
+    color: #7e7d7d;
+    width: 600px;
+    text-align: center;
+}
+footer{
+    font-family: calibri;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 0 50px;
+}
+.social-icons a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    margin: 10px 10px 30px 10px;
+    border-radius: 50%;
+    outline: 2px solid ;
+    color: white;
+}
+.social-icons {
+    display: flex;
+}
+.social-icons i{
+    color: white;
+}
+.icon:hover {
+    outline-offset: 4px;
+}
+.icon:hover i{
+    animation: shake .5s;
+}
+.icon--instagram:hover{
+    background-image: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+    outline-color: #a02d76;
+}
+.icon--linkedin:hover{
+    background-color: #0077b5;
+    outline-color: #0077b5;
+}
+.icon--github:hover{
+    background-color: #2ea44f;
+    outline-color: #2ea44f;
+}
+.icon--web:hover{
+    background-color: #00bfff;
+    outline-color: #00bfff;
+}
+.copyright {
+    color: #565555;
+    font-size: 16px;
+}
+@keyframes shake {
+    10%{transform: rotate(25deg);}
+    20%{transform: rotate(-25deg);}
+    30%{transform: rotate(25deg);}
+    40%{transform: rotate(-25deg);}
+}
+/* PENUTUP FOOTER */
+
+.social i{
+    color: #000;
+}
+.social a:hover i {
+    color: #fff;
+    transition: all ease 0.5s;
+}
+.social {
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+}
+.social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin: 0px;
+    margin-right: 2px;
+    margin-bottom: 1px;
+    border-radius: 50%;
+    padding: 0px;
+    line-height: 0px;
+    background-color: #fff;
+    border: 1px solid #cbcbcb;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2 );
+}
+.social a:hover {
+    background-color: #000;
+    transition: all ease 0.5s;
+}
+.social i {
+    font-size: 20px;
+    color: #2b2b2b;
+}

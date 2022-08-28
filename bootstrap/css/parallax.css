@@ -1,0 +1,85 @@
+/* Navbar */
+.navLi {
+    opacity: 0;
+    transform: translate(0, -20px);
+    transition: 1.5s;
+}
+.navLi.navLiMuncul {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+/* Jumbotron */
+.home .pJumbotron {
+    opacity: 0;
+    transform: translate(0, -60px);
+    transition: 2s;
+}
+
+.home .pJumbotron.muncul {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+/* about */
+.about-container .introduce {
+    opacity: 0;
+    transform: translate(0, -40px);
+    transition: 1s;
+}
+.about-container .introduce.muncul {
+    transform: translate(0,0);
+    opacity: 1;
+}
+
+
+/* portofolio */
+.portofolio .content-card {
+    opacity: 0;
+    transform: translate(0, -50px);
+    transition: 1.5s;
+}
+.portofolio .content-card.muncul {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .aLeft {
+    opacity: 0;
+    transform: translate(-50px, 0);
+    translate: 2s;
+}
+.aRight {
+    opacity: 0;
+    transform: translate(50px, 0);
+    translate: 2s;
+}
+.aRight.arMuncul, .aLeft.alMuncul {
+    opacity: 1;
+    transform: translate(0, 0);
+} */
